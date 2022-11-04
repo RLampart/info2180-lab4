@@ -9,10 +9,17 @@
 </head>
 <body>
     <header>
+        <h1>SUPERHERO DATABASE</h1>
         </header>
         <div class="container">
-            <div class = "search">
-                <button type="submit" class="btn">Search</button>
+            <div class = "search">    
+                <h2>Search by real name or alias</h3>
+                <form method="get" action="superheroes.php">
+                   <input type ="text" name = "query" id = "searchbox" placeholder="eg. Captain America or Steve Rogers">
+                   <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+            <div id = "result">      
             </div>
         </div>
 </body>

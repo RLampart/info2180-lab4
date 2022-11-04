@@ -1,3 +1,46 @@
 body{
-    background-color: gray;
+    background-color: lightgray;
+}
+div.search{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.search #searchbox{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+.search button{
+    height: 40px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 10px;
+}
+#result{
+    color: green;
+    font-size: 18px;
+}
+#result h2{
+    font-size: 36px;
+    color: black;
+}
+#result h3,h4,p{
+    margin-left:10px;
+}
+#result h3{
+    font-size:24px;
+    color: green;
+}
+#result h4{
+    color: red;
+    font-size: 20px;
+}
+#result h5{
+    font-size: 20px;
+    color: red;
 }
